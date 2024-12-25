@@ -272,7 +272,7 @@ main p {
 
   #sidebar .sub-menu.show {
     grid-template-rows: 1fr;
-    position: fixed;
+    position: sticky;
     bottom: 60px;
     left: 0;
     height: 60px;

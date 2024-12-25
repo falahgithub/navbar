@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <nav id="sidebar">
+    <ul>
+      <li class="logo">Cdoing 2 go
+        <button id="toggle-btn" onclick="toggleSideBar()">expand</button>
+      </li>
+
+      <li class="active">
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+    </li>
+    <li>
+    <button onclick="toggleSubMenu(this)" class="dropdown-btn">Create</button>
+    <ul class="sub-menu">
+      <div><li><a href="#">Create</a></li>
+      <li><a href="#">Update</a></li>
+      <li><a href="#">Delete</a></li></div>
+      
+    </ul>
+    </li>
+  </ul>
+  </nav>
+  <main>
+    <div class="container">
+      <h2>Heelo world</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ducimus perspiciatis in voluptate saepe doloribus error quo nostrum exercitationem minima! Deleniti unde nobis dolores necessitatibus eos. Odio eaque animi possimus?</p>
+    </div>
+    <div class="container">
+      <h2>conatainer 2</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ducimus perspiciatis in voluptate saepe doloribus error quo nostrum exercitationem minima! Deleniti unde nobis dolores necessitatibus eos. Odio eaque animi possimus?</p>
+    </div>
+    <div class="container">
+      <h2>conatainer 3</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ducimus perspiciatis in voluptate saepe doloribus error quo nostrum exercitationem minima! Deleniti unde nobis dolores necessitatibus eos. Odio eaque animi possimus?</p>
+    </div>
+  </main>
+</body>
+</html>
